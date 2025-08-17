@@ -94,7 +94,3 @@ Notes:
   - Front: `GET /plugin/product_flash_sale/index` → name `product_flash_sale.index`.
   - Admin: `GP247_ADMIN_PREFIX/product_flash_sale/*` with CRUD actions.
 - View/Translation namespace: `Plugins/ProductFlashSale` (e.g. `Plugins/ProductFlashSale::blocks.flash_sale`, `Plugins/ProductFlashSale::lang.*`).
-
-### Version
-- 1.0.0: Initial release.
-
