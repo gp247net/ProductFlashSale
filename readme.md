@@ -66,7 +66,7 @@ Blade example to add a link:
 - Optional (override by template and manage via admin):
   1) Copy the block view from the plugin into your current template:
      - Source: `app/GP247/Plugins/ProductFlashSale/Views/blocks/flash_sale.blade.php`
-     - Destination: `app/GP247/Templates/<TEMPLATE>/blocks/flash_sale.blade.php`
+     - Destination: `app/GP247/Templates/{TEMPLATE}/blocks/flash_sale.blade.php`
   2) In admin, go to `layout_block` and add the `flash_sale` block to your desired position.
 
 - Use helpers to build a custom list:

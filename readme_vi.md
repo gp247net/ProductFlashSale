@@ -66,7 +66,7 @@ Ví dụ chèn link trong Blade:
 - Tùy chọn (override theo template và quản lý qua admin):
   1) Sao chép file view block từ plugin sang template hiện tại:
      - Nguồn: `app/GP247/Plugins/ProductFlashSale/Views/blocks/flash_sale.blade.php`
-     - Đích: `app/GP247/Templates/<TEMPLATE>/blocks/flash_sale.blade.php`
+     - Đích: `app/GP247/Templates/{TEMPLATE}/blocks/flash_sale.blade.php`
   2) Vào trang quản trị, mục `layout_block`, thêm block `flash_sale` vào vị trí mong muốn của giao diện.
 
 - Sử dụng helper để tự tùy biến danh sách:
